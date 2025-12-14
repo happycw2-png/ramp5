@@ -75,11 +75,12 @@ a {
 @media screen and (max-width: 700px) {
 
     .main-sentence {
-        font-size: 17px;
+        font-size: 14px;
         width: 90%;
     }
     .source-text {
-        font-size: 14px;
+        font-size: 13px;
         bottom: 90px;
     }
+
 }
