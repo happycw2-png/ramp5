@@ -80,12 +80,13 @@ a {
     }
     .main-sentence {
         width: 90%;
-        font-size: 16px;
+        font-size: 14px;
         bottom: 15%;
         text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
     }
 
     .source-text {
         top: 80px; 
-        font-size: 14px;
+        font-size: 12px;
+
 }
