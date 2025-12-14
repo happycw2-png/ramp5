@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    word-break: keep-all; 
+}
+
+body {
+    color: white;
+    background-color: black;
+    font-family: 'Malgun Gothic', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.9); 
+}
+
+.source-text {
+    position: absolute;
+    top: 100px; 
+    right: 30px;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ddd; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+a {
+    color: white;
+}
+
+.main-sentence {
+    position: absolute;
+    bottom: 7%; 
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 80%; 
+    text-align: center;
+    font-size: 19px;
+    line-height: 1.6;
+    font-weight: 400;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+}
+
+
+.next-arrow {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    display: block;
+    z-index: 10;
+}
+
+.next-arrow img {
+    width: 100%;
+    filter: invert(1);
+}
+
+@media screen and (max-width: 700px) {
+    .bg-image {
+        filter: brightness(0.8);
+        content: url('images/page4_rampmobile.jpg'); 
+    }
+
+    .title-text {
+        font-size: 26px;
+        top: 25%;
+    }
+    .main-sentence {
+        width: 90%;
+        font-size: 16px;
+        bottom: 15%;
+        text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
+    }
+
+    .source-text {
+        top: 80px; 
+        font-size: 14px;
+}
