@@ -71,20 +71,16 @@ a {
         filter: brightness(0.8);
         content: url('images/page2_rampmobile.jpg'); 
     }
-    .title {
-        font-size: 22px;
-        top: 30px;
-        left: 20px;
-    }
     .source {
         font-size: 12px;
         top: 30px;
         right: 20px;
     }
     .main-sentence {
-        font-size: 16px;
+        font-size: 14px;
         bottom: 70px;
         left: 20px;
         width: 90%;
     }
+
 }
