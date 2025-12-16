@@ -40,7 +40,7 @@ html, body {
 }
 
 .title {
-    font-size: 48px; 
+    font-size: 26px; 
     font-weight: bold;
     color: white;
     margin-bottom: 20px; 
@@ -56,15 +56,14 @@ html, body {
 }
 
 .sub-link p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: normal; 
     padding: 10px 20px; 
     border-radius: 5px;  
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
 }
 
-.sub-link:hover p {
-    background-color: rgba(0, 0, 0, 0.1); 
+.sub-link:hover p { 
     font-weight: bold; 
 }
 
@@ -77,4 +76,5 @@ html, body {
     }
 
 }
+
 
